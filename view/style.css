@@ -1,0 +1,290 @@
+    body {
+        background-image: url(images/bank.jpg);
+        background-color: rgb(0, 0, 41);
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    
+    #container {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    
+    header {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #entete {
+        width: 100%;
+        height: 100px;
+        background-color: bisque;
+        display: flex;
+    }
+    
+    #img1 {
+        width: 120px;
+        height: 100px;
+    }
+    
+    #text1 {
+        color: brown;
+        font-size: 28px;
+        font-family: "MS Serif", "New York", serif;
+        margin-left: 20%;
+    }
+    
+    #text2 {
+        color: white;
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+        height: 40px;
+        text-align: center;
+        padding: 1px;
+    }
+    
+    h2 {
+        text-align: center;
+    }
+    
+    #lien {
+        background-color: #6CC;
+        height: 50px;
+    }
+    
+    #naviguer ul {
+        list-style: none;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+    
+    #naviguer li {
+        display: inline-block;
+        text-align: center;
+        height: 50px;
+    }
+    
+    #naviguer a {
+        text-decoration: none;
+        color: brown;
+        width: 180px;
+        display: block;
+        font-size: 18px;
+        font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    }
+    
+    #naviguer a:hover {
+        background: olive;
+        transition: 0.4s;
+        height: 25px;
+    }
+    
+    nav {
+        background-color: cadetblue;
+        height: 40px;
+        margin: 0;
+        padding: 0;
+    }
+    
+    #navigation ul {
+        list-style: none;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+    
+    #navigation li {
+        display: inline-block;
+        text-align: center;
+    }
+    
+    #navigation a {
+        text-decoration: none;
+        color: #FFF;
+        width: 330px;
+        display: block;
+        font-size: 24px;
+        font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    }
+    
+    #navigation a:hover {
+        background: olive;
+        transition: 0.6s;
+        height: 40px;
+    }
+    
+    main {
+        margin-left: 15%;
+        margin-right: 15%;
+        background: rgba(0, 0, 0, 0.5);
+        border-radius: 15px;
+    }
+    
+    #legend1,
+    #legend2,
+    #legend3 {
+        color: #FFF;
+        font-size: 22px;
+        text-align: center;
+    }
+    
+    #field1,
+    #field2,
+    #field3 {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    label {
+        font-size: 18px;
+        color: #FFF;
+    }
+    
+    select {
+        width: 320px;
+        border-radius: 7px;
+        padding: 8px;
+    }
+    
+    #cni {
+        width: 300px;
+        border-radius: 7px;
+        padding: 8px;
+    }
+    
+    #nom {
+        width: 300px;
+        border-radius: 7px;
+        padding: 8px;
+    }
+    
+    #prenom {
+        width: 300px;
+        border-radius: 7px;
+        padding: 8px;
+    }
+    
+    #DateDeNaissance {
+        width: 300px;
+        border-radius: 7px;
+        padding: 8px;
+    }
+    
+    #adress {
+        width: 300px;
+        border-radius: 7px;
+        padding: 8px;
+    }
+    
+    #email {
+        width: 300px;
+        border-radius: 7px;
+        padding: 8px;
+    }
+    
+    #telephone {
+        width: 300px;
+        border-radius: 7px;
+        padding: 8px;
+    }
+    
+    #profession {
+        width: 300px;
+        border-radius: 7px;
+        padding: 8px;
+    }
+    
+    #salaire {
+        width: 300px;
+        border-radius: 7px;
+        padding: 8px;
+    }
+    
+    #sexe {
+        width: 317px;
+        border-radius: 7px;
+        padding: 8px;
+    }
+    
+    #employeur {
+        width: 300px;
+        border-radius: 7px;
+        padding: 8px;
+    }
+    
+    #numAgence {
+        width: 300px;
+        border-radius: 7px;
+        padding: 8px;
+    }
+    
+    #numCompte {
+        width: 300px;
+        border-radius: 7px;
+        padding: 8px;
+    }
+    
+    #rib {
+        width: 300px;
+        border-radius: 7px;
+        padding: 8px;
+    }
+    
+    #montant {
+        width: 300px;
+        border-radius: 7px;
+        padding: 8px;
+    }
+    
+    #dateDebut {
+        width: 300px;
+        border-radius: 7px;
+        padding: 8px;
+    }
+    
+    #dateFin {
+        width: 300px;
+        border-radius: 7px;
+        padding: 8px;
+    }
+    
+    #clientT {
+        width: 320px;
+        border-radius: 7px;
+        padding: 8px;
+    }
+    
+    #compte,
+    #infoClient,
+    #infoSupp {
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    #fraiss,
+    #infoClient1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    
+    #infoC,
+    #infoClient2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    
+    button {
+        background-color: forestgreen;
+        border: none;
+        display: block;
+        width: 300px;
+        height: 40px;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 20px;
+        border-radius: 15px;
+    }
